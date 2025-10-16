@@ -2,116 +2,494 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Términos y Condiciones - Studivo</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
             margin: 0;
-            padding: 40px;
+            padding: 40px 20px;
             display: flex;
             justify-content: center;
             align-items: flex-start;
             min-height: 100vh;
-            background-color: #f9f9f9;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         }
         .container {
             background: #ffffff;
-            padding: 40px;
-            max-width: 800px;
+            padding: 50px;
+            max-width: 900px;
             width: 100%;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            color: #2c3e50;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
         }
         h1 {
-            margin-bottom: 20px;
+            color: #667eea;
+            margin-bottom: 10px;
             text-align: center;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+        .date {
+            text-align: center;
+            color: #888;
+            font-size: 0.95em;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .intro {
+            background: #f8f9ff;
+            padding: 25px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 30px;
+            border-radius: 5px;
         }
         h2 {
+            color: #764ba2;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        h3 {
+            color: #667eea;
             margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
         }
         p {
-            margin: 10px 0;
+            margin: 15px 0;
+            color: #333;
         }
         ul {
-            margin: 10px 0 10px 20px;
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+        li {
+            margin: 10px 0;
+            color: #444;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        .important-box {
+            background: #ffe6e6;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #dc3545;
+            margin: 20px 0;
+        }
+        .feature-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-align: center;
+            font-weight: bold;
+            margin: 30px 0;
+            font-size: 1.1em;
+        }
+        .contact-box {
+            background: #f8f9ff;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
         }
         a {
-            color: #2c3e50;
+            color: #667eea;
             text-decoration: none;
+            font-weight: 600;
         }
         a:hover {
             text-decoration: underline;
         }
-        .date {
-            text-align: center;
-            color: #555;
-            font-size: 0.9em;
+        .emoji {
+            font-size: 1.2em;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 10px;
+            }
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Términos y Condiciones de Studivo</h1>
+        <h1>Términos y Condiciones</h1>
+        <p class="subtitle">Studivo - Aplicación de Práctica Musical</p>
         <p class="date">Última actualización: 15 de octubre de 2025</p>
+        
+        <div class="intro">
+            <p>Bienvenido a <strong>Studivo</strong>, una aplicación móvil desarrollada para apoyar el aprendizaje, organización y práctica musical de manera privada y eficiente.</p>
+            <p>Al descargar, instalar o utilizar Studivo, aceptas estar vinculado por estos Términos y Condiciones. <strong>Te recomendamos leerlos atentamente antes de usar la aplicación.</strong></p>
+            <p>Si no estás de acuerdo con alguno de estos términos, por favor no utilices la aplicación.</p>
+        </div>
 
-        <p>Bienvenido a Studivo, una aplicación móvil desarrollada para apoyar el aprendizaje y la práctica musical. Al utilizar esta aplicación, aceptas cumplir los siguientes términos y condiciones.
-        Te recomendamos leerlos atentamente antes de usar la app.</p>
-
-        <h2>1. Aceptación de los términos</h2>
-        <p>Al descargar o utilizar Studivo, el usuario acepta estos Términos y Condiciones en su totalidad.
-        Si no estás de acuerdo con alguno de los puntos aquí descritos, te pedimos que no utilices la aplicación.</p>
-
-        <h2>2. Uso de la aplicación</h2>
-        <p>Studivo está destinada a fines educativos y de práctica musical.
-        El usuario se compromete a:</p>
+        <h2>1. Aceptación de los Términos</h2>
+        <p>Al acceder y utilizar Studivo, confirmas que:</p>
         <ul>
-            <li>Usar la aplicación de manera responsable y conforme a las leyes vigentes.</li>
-            <li>No emplear la app para distribuir contenido inapropiado, malicioso o con fines comerciales no autorizados.</li>
-            <li>No modificar, descompilar ni intentar obtener el código fuente de la aplicación.</li>
+            <li>Has leído, comprendido y aceptado estos Términos y Condiciones en su totalidad</li>
+            <li>Tienes capacidad legal para aceptar estos términos (eres mayor de edad o cuentas con autorización de un padre/tutor)</li>
+            <li>Cumplirás con todas las normas aquí establecidas</li>
+            <li>Has revisado nuestra <a href="https://jesusrivero.github.io/Politicas-de-privacidad/">Política de Privacidad</a></li>
         </ul>
 
-        <h2>3. Creación y uso de rutinas</h2>
-        <p>La aplicación permite crear, editar y compartir rutinas musicales.</p>
+        <div class="important-box">
+            <strong>Importante:</strong> Si eres menor de edad, asegúrate de que un padre o tutor legal revise estos términos contigo antes de usar la aplicación.
+        </div>
+
+        <h2>2. Descripción del Servicio</h2>
+        <p>Studivo es una aplicación móvil educativa diseñada para músicos que ofrece las siguientes funcionalidades:</p>
+        
+        <h3>🎵 Funciones Principales:</h3>
         <ul>
-            <li>Estas rutinas se almacenan únicamente en el dispositivo del usuario.</li>
-            <li>El usuario puede compartirlas voluntariamente mediante códigos QR cifrados, que solo pueden ser leídos por la propia aplicación Studivo.</li>
-            <li>Studivo no tiene acceso, almacenamiento ni control sobre las rutinas compartidas o generadas.</li>
-            <li>El usuario es responsable del contenido que cree o comparta dentro de la aplicación.</li>
+            <li><strong>Creación de Rutinas Musicales:</strong> crea, edita, organiza y gestiona rutinas personalizadas de práctica</li>
+            <li><strong>Metrónomo Integrado:</strong> herramienta de metrónomo configurable para ejercicios rítmicos</li>
+            <li><strong>Sistema de Rachas:</strong> seguimiento de días consecutivos de práctica para fomentar hábitos constantes</li>
+            <li><strong>Historial de Progreso:</strong> registro detallado de sesiones, tiempos y evolución del aprendizaje</li>
+            <li><strong>Compartir Rutinas vía QR:</strong> exporta e importa rutinas mediante códigos QR cifrados</li>
+            <li><strong>Almacenamiento Local:</strong> todos los datos se guardan en tu dispositivo sin necesidad de internet</li>
         </ul>
 
-        <h2>4. Permiso de cámara</h2>
-        <p>Studivo solicita acceso a la cámara del dispositivo únicamente para escanear códigos QR.
-        El permiso se usa solo para esta función y no se realizan grabaciones ni se transmite información visual a terceros.
-        El usuario puede revocar este permiso en cualquier momento desde la configuración del sistema operativo.</p>
+        <div class="feature-badge">
+            ✨ HERRAMIENTA EDUCATIVA - USO PERSONAL Y PRIVADO
+        </div>
 
-        <h2>5. Propiedad intelectual</h2>
-        <p>Todo el contenido visual, de diseño, logotipos, nombres y marcas asociados con Studivo son propiedad de su desarrollador.
-        El usuario conserva la propiedad intelectual de las rutinas que cree dentro de la aplicación.</p>
-
-        <h2>6. Limitación de responsabilidad</h2>
-        <p>El desarrollador de Studivo no se hace responsable de:</p>
+        <h2>3. Uso Aceptable de la Aplicación</h2>
+        <p>Studivo está destinada exclusivamente a <strong>fines educativos y de práctica musical</strong>. El usuario se compromete a:</p>
+        
+        <h3>✅ Usos Permitidos:</h3>
         <ul>
-            <li>Daños o pérdidas derivadas del uso incorrecto de la aplicación.</li>
-            <li>Fallos o errores que puedan presentarse en el dispositivo del usuario.</li>
-            <li>El contenido compartido entre usuarios mediante códigos QR.</li>
+            <li>Utilizar la app para organizar y mejorar tu práctica musical personal</li>
+            <li>Crear rutinas originales o basadas en métodos de estudio musicales reconocidos</li>
+            <li>Compartir rutinas con otros usuarios de Studivo de manera voluntaria y constructiva</li>
+            <li>Usar el metrónomo como herramienta de apoyo rítmico</li>
+            <li>Llevar registro de tu progreso y hábitos de estudio</li>
         </ul>
-        <p>Studivo se proporciona “tal cual” (as is) sin garantías de funcionamiento continuo o libre de errores.</p>
 
-        <h2>7. Modificaciones</h2>
-        <p>El desarrollador puede actualizar o modificar estos Términos y Condiciones en cualquier momento.
-        Las modificaciones entrarán en vigor una vez publicadas en la aplicación o en la tienda correspondiente.</p>
+        <h3>❌ Usos Prohibidos:</h3>
+        <ul>
+            <li><strong>Contenido inapropiado:</strong> No crear ni compartir rutinas con contenido ofensivo, discriminatorio, violento o ilegal</li>
+            <li><strong>Violación de derechos:</strong> No compartir material con derechos de autor sin autorización (partituras protegidas, métodos comerciales, etc.)</li>
+            <li><strong>Ingeniería inversa:</strong> No intentar descompilar, modificar o extraer el código fuente de la aplicación</li>
+            <li><strong>Uso comercial no autorizado:</strong> No revender, redistribuir ni utilizar la app para fines comerciales sin permiso explícito</li>
+            <li><strong>Interferencia técnica:</strong> No intentar vulnerar, hackear o comprometer la seguridad de la aplicación</li>
+            <li><strong>Automatización:</strong> No usar bots, scripts o herramientas automatizadas para manipular la app</li>
+            <li><strong>Suplantación:</strong> No compartir códigos QR maliciosos o engañosos</li>
+        </ul>
 
-        <h2>8. Uso por menores de edad</h2>
-        <p>Studivo puede ser utilizada por personas de todas las edades.
-        Sin embargo, los padres o tutores legales son responsables de supervisar el uso de la aplicación por parte de menores de edad.</p>
+        <div class="important-box">
+            <strong>Consecuencias del Uso Indebido:</strong> Aunque Studivo no recopila datos ni tiene sistema de cuentas, el uso malintencionado puede resultar en acciones legales según las leyes aplicables.
+        </div>
 
-        <h2>9. Contacto</h2>
-        <p>Para consultas o soporte técnico, puedes escribirnos a:<br>
-        📧 <a href="mailto:jesusparrauen5@gmail.com">jesusparrauen5@gmail.com</a></p>
+        <h2>4. Creación y Compartición de Rutinas</h2>
+        
+        <h3>4.1 Propiedad del Contenido</h3>
+        <p>El usuario <strong>conserva todos los derechos</strong> sobre las rutinas musicales que cree dentro de Studivo. Eres el único propietario de tus creaciones.</p>
+
+        <h3>4.2 Almacenamiento Local</h3>
+        <ul>
+            <li>Las rutinas se almacenan <strong>exclusivamente en tu dispositivo</strong> mediante la base de datos local Room (Android)</li>
+            <li>Studivo <strong>no tiene acceso, no almacena ni controla</strong> las rutinas que creas</li>
+            <li>No existe sincronización en la nube ni respaldo automático externo</li>
+            <li>Eres responsable de realizar copias de seguridad de tu dispositivo si deseas preservar tus rutinas</li>
+        </ul>
+
+        <h3>4.3 Compartir Rutinas mediante Códigos QR</h3>
+        <p>Studivo permite compartir rutinas de manera voluntaria usando códigos QR cifrados:</p>
+        <ul>
+            <li><strong>Cifrado de seguridad:</strong> Los códigos QR están cifrados y solo pueden ser leídos por Studivo</li>
+            <li><strong>Contenido exclusivo:</strong> El QR contiene únicamente datos de la rutina musical (ejercicios, tiempos, configuraciones)</li>
+            <li><strong>Sin datos personales:</strong> No se incluye información identificable del usuario en el código QR</li>
+            <li><strong>Proceso local:</strong> La generación y lectura del QR se realiza completamente en tu dispositivo, sin servidores intermediarios</li>
+            <li><strong>Responsabilidad del usuario:</strong> Eres responsable del contenido que compartes; asegúrate de no infringir derechos de terceros</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>Nota:</strong> Al compartir una rutina mediante QR, permites que otros usuarios de Studivo importen esa rutina a sus dispositivos. Una vez compartida, pierdes el control sobre cómo esa persona usa la rutina.
+        </div>
+
+        <h2>5. Permiso de Cámara</h2>
+        <p>Studivo solicita acceso a la <strong>cámara del dispositivo</strong> para una funcionalidad específica:</p>
+        
+        <h3>📷 Uso del Permiso de Cámara:</h3>
+        <ul>
+            <li><strong>Propósito exclusivo:</strong> Escanear códigos QR generados por Studivo para importar rutinas</li>
+            <li><strong>Sin grabaciones:</strong> No se realizan grabaciones de video ni se capturan fotografías permanentes</li>
+            <li><strong>Sin almacenamiento:</strong> Las imágenes procesadas no se guardan en el dispositivo</li>
+            <li><strong>Sin transmisión:</strong> Ninguna imagen se envía a servidores externos o terceros</li>
+            <li><strong>Opcional:</strong> Si no otorgas este permiso, puedes usar todas las demás funciones excepto importar rutinas vía QR</li>
+        </ul>
+
+        <h3>Control del Permiso:</h3>
+        <p>Puedes <strong>revocar el permiso de cámara en cualquier momento</strong> desde la configuración de tu sistema operativo:</p>
+        <ul>
+            <li><strong>Android:</strong> Configuración → Apps → Studivo → Permisos → Cámara</li>
+        </ul>
+
+        <h2>6. Propiedad Intelectual</h2>
+        
+        <h3>6.1 Derechos de Studivo</h3>
+        <p>Todo el contenido de la aplicación, incluyendo pero no limitado a:</p>
+        <ul>
+            <li>Código fuente y arquitectura de software</li>
+            <li>Diseño visual, interfaz de usuario (UI/UX)</li>
+            <li>Logotipos, nombres, marcas y elementos gráficos</li>
+            <li>Algoritmos y funcionalidades técnicas</li>
+            <li>Documentación y textos descriptivos</li>
+        </ul>
+        <p>Son propiedad exclusiva del <strong>desarrollador de Studivo</strong> y están protegidos por leyes de derechos de autor y propiedad intelectual.</p>
+
+        <h3>6.2 Derechos del Usuario</h3>
+        <p>El usuario <strong>conserva todos los derechos de propiedad intelectual</strong> sobre:</p>
+        <ul>
+            <li>Las rutinas musicales que cree dentro de la aplicación</li>
+            <li>Los datos de progreso y configuraciones personales</li>
+            <li>Cualquier contenido original generado por el usuario</li>
+        </ul>
+
+        <h3>6.3 Licencia de Uso</h3>
+        <p>Al utilizar Studivo, se te otorga una licencia <strong>personal, no exclusiva, no transferible y revocable</strong> para usar la aplicación conforme a estos términos. Esta licencia no te otorga derecho a:</p>
+        <ul>
+            <li>Reproducir, modificar o distribuir la aplicación</li>
+            <li>Crear trabajos derivados basados en Studivo</li>
+            <li>Vender, sublicenciar o transferir la aplicación a terceros</li>
+        </ul>
+
+        <h2>7. Limitación de Responsabilidad</h2>
+        <p>El desarrollador de Studivo proporciona la aplicación <strong>"tal cual" (as is)</strong> y <strong>"según disponibilidad" (as available)</strong>, sin garantías de ningún tipo.</p>
+        
+        <h3>El desarrollador NO se hace responsable de:</h3>
+        <ul>
+            <li><span class="emoji">📱</span> <strong>Pérdida de datos:</strong> Rutinas, progreso o configuraciones perdidas por desinstalación, fallo del dispositivo o cualquier otra causa</li>
+            <li><span class="emoji">⚠️</span> <strong>Errores o fallos:</strong> Bugs, crashes, funcionamiento incorrecto o incompatibilidad con ciertos dispositivos</li>
+            <li><span class="emoji">🔄</span> <strong>Interrupciones del servicio:</strong> Aunque la app funciona offline, actualizaciones o cambios del sistema operativo pueden afectar su funcionamiento</li>
+            <li><span class="emoji">📊</span> <strong>Precisión del metrónomo:</strong> Aunque nos esforzamos por mantener precisión, variaciones mínimas pueden ocurrir según el hardware</li>
+            <li><span class="emoji">🤝</span> <strong>Contenido compartido:</strong> Rutinas compartidas por otros usuarios mediante códigos QR; no controlamos ni verificamos este contenido</li>
+            <li><span class="emoji">💼</span> <strong>Uso indebido:</strong> Cualquier daño resultante del uso inapropiado de la aplicación por parte del usuario</li>
+            <li><span class="emoji">🔒</span> <strong>Seguridad del dispositivo:</strong> Acceso no autorizado a tu dispositivo o robo del mismo</li>
+            <li><span class="emoji">📉</span> <strong>Resultados de aprendizaje:</strong> Studivo es una herramienta de apoyo; los resultados musicales dependen del esfuerzo y práctica del usuario</li>
+        </ul>
+
+        <div class="important-box">
+            <strong>Importante:</strong> En la máxima medida permitida por la ley, el desarrollador no será responsable de daños directos, indirectos, incidentales, especiales o consecuentes derivados del uso o imposibilidad de uso de Studivo.
+        </div>
+
+        <h2>8. Garantías y Descargos</h2>
+        
+        <h3>8.1 Ausencia de Garantías</h3>
+        <p>Studivo se proporciona sin garantías de ningún tipo, expresas o implícitas, incluyendo pero no limitado a:</p>
+        <ul>
+            <li>Garantía de comerciabilidad</li>
+            <li>Garantía de idoneidad para un propósito particular</li>
+            <li>Garantía de funcionamiento ininterrumpido o libre de errores</li>
+            <li>Garantía de seguridad absoluta</li>
+            <li>Garantía de compatibilidad con todos los dispositivos</li>
+        </ul>
+
+        <h3>8.2 Respaldo de Datos</h3>
+        <p>Dado que todos los datos se almacenan localmente, el usuario es <strong>único responsable</strong> de:</p>
+        <ul>
+            <li>Realizar copias de seguridad periódicas de su dispositivo</li>
+            <li>Exportar rutinas importantes mediante códigos QR para preservarlas</li>
+            <li>Mantener la seguridad física y digital de su dispositivo</li>
+        </ul>
+
+        <h2>9. Modificaciones y Actualizaciones</h2>
+        
+        <h3>9.1 Actualizaciones de la Aplicación</h3>
+        <p>El desarrollador se reserva el derecho de:</p>
+        <ul>
+            <li>Actualizar, modificar o mejorar Studivo en cualquier momento</li>
+            <li>Agregar, cambiar o eliminar funcionalidades</li>
+            <li>Corregir errores o problemas de seguridad</li>
+            <li>Descontinuar la aplicación (con aviso razonable si es posible)</li>
+        </ul>
+
+        <h3>9.2 Modificaciones de estos Términos</h3>
+        <p>Estos Términos y Condiciones pueden ser modificados ocasionalmente. En caso de cambios:</p>
+        <ul>
+            <li>La fecha de "Última actualización" se actualizará</li>
+            <li>Los cambios sustanciales se comunicarán mediante notificación en la app o en la tienda de aplicaciones</li>
+            <li>El uso continuado de Studivo después de los cambios constituye aceptación de los nuevos términos</li>
+            <li>Si no aceptas los cambios, debes dejar de usar la aplicación</li>
+        </ul>
+
+        <h2>10. Uso por Menores de Edad</h2>
+        <p>Studivo puede ser utilizada por personas de <strong>todas las edades</strong>, incluyendo menores.</p>
+        
+        <h3>Responsabilidades de Padres y Tutores:</h3>
+        <ul>
+            <li>Los padres o tutores legales son responsables de <strong>supervisar el uso</strong> de la aplicación por parte de menores</li>
+            <li>Deben revisar estos Términos y Condiciones junto con el menor</li>
+            <li>Deben asegurarse de que el menor comprende cómo compartir rutinas de manera segura</li>
+            <li>Son responsables de gestionar los permisos de cámara otorgados a la aplicación</li>
+        </ul>
+
+        <p><strong>Nota:</strong> Studivo no recopila información personal, no requiere registro y funciona offline, lo que la hace inherentemente segura para menores. Sin embargo, la supervisión parental es siempre recomendable.</p>
+
+        <h2>11. Privacidad y Protección de Datos</h2>
+        <p>La privacidad es fundamental para Studivo. Te recomendamos revisar nuestra <strong><a href="https://jesusrivero.github.io/Politicas-de-privacidad/">Política de Privacidad</a></strong> para comprender completamente cómo manejamos (o más bien, NO manejamos) tus datos.</p>
+        
+        <h3>Principios clave:</h3>
+        <ul>
+            <li>🔒 <strong>Cero recolección de datos:</strong> No recopilamos información personal</li>
+            <li>📱 <strong>Almacenamiento local:</strong> Todos los datos permanecen en tu dispositivo</li>
+            <li>🚫 <strong>Sin servidores:</strong> No utilizamos servidores externos ni bases de datos cloud</li>
+            <li>🔐 <strong>Cifrado en compartición:</strong> Los códigos QR están cifrados</li>
+            <li>✅ <strong>Funcionamiento offline:</strong> No requiere conexión a internet</li>
+        </ul>
+
+        <h2>12. Terminación del Uso</h2>
+        
+        <h3>12.1 Terminación por el Usuario</h3>
+        <p>Puedes dejar de usar Studivo en cualquier momento simplemente:</p>
+        <ul>
+            <li>Desinstalando la aplicación de tu dispositivo</li>
+            <li>Eliminando todos los datos asociados (automático al desinstalar en la mayoría de dispositivos)</li>
+        </ul>
+
+        <h3>12.2 Terminación por el Desarrollador</h3>
+        <p>Aunque Studivo no tiene sistema de cuentas, el desarrollador puede:</p>
+        <ul>
+            <li>Retirar la aplicación de las tiendas de aplicaciones</li>
+            <li>Descontinuar el soporte o actualizaciones futuras</li>
+            <li>Suspender el desarrollo si es necesario</li>
+        </ul>
+
+        <h3>12.3 Efectos de la Terminación</h3>
+        <p>Al terminar el uso de Studivo:</p>
+        <ul>
+            <li>Los datos locales se eliminarán al desinstalar (según configuración del sistema operativo)</li>
+            <li>Las rutinas compartidas previamente mediante QR permanecerán en los dispositivos que las hayan importado</li>
+            <li>No hay obligaciones pendientes ni suscripciones que cancelar</li>
+        </ul>
+
+        <h2>13. Indemnización</h2>
+        <p>El usuario acepta <strong>indemnizar y mantener indemne</strong> al desarrollador de Studivo de cualquier:</p>
+        <ul>
+            <li>Reclamo, demanda o acción legal resultante del uso indebido de la aplicación</li>
+            <li>Violación de estos Términos y Condiciones</li>
+            <li>Infracción de derechos de terceros (propiedad intelectual, privacidad, etc.)</li>
+            <li>Contenido compartido por el usuario que sea ilegal, inapropiado o viole derechos de autor</li>
+        </ul>
+
+        <h2>14. Jurisdicción y Ley Aplicable</h2>
+        <p>Estos Términos y Condiciones se rigen por las leyes aplicables en la jurisdicción del desarrollador, sin considerar conflictos de principios legales.</p>
+        
+        <p>Cualquier disputa relacionada con Studivo se resolverá mediante:</p>
+        <ul>
+            <li>Negociación directa entre las partes en primera instancia</li>
+            <li>Mediación o arbitraje si es necesario</li>
+            <li>Tribunales competentes de la jurisdicción correspondiente como último recurso</li>
+        </ul>
+
+        <h2>15. Disposiciones Generales</h2>
+        
+        <h3>15.1 Acuerdo Completo</h3>
+        <p>Estos Términos y Condiciones, junto con la Política de Privacidad, constituyen el <strong>acuerdo completo</strong> entre el usuario y el desarrollador de Studivo.</p>
+
+        <h3>15.2 Divisibilidad</h3>
+        <p>Si alguna disposición de estos términos se considera inválida o inaplicable, las disposiciones restantes permanecerán en pleno vigor y efecto.</p>
+
+        <h3>15.3 No Renuncia</h3>
+        <p>El hecho de que el desarrollador no haga cumplir alguna disposición no constituye una renuncia a su derecho de hacerlo en el futuro.</p>
+
+        <h3>15.4 Cesión</h3>
+        <p>El usuario no puede ceder ni transferir estos términos sin consentimiento previo por escrito. El desarrollador puede ceder estos términos en cualquier momento.</p>
+
+        <h3>15.5 Idioma</h3>
+        <p>Estos términos están redactados en español. En caso de traducción a otros idiomas, la versión en español prevalecerá en caso de discrepancias.</p>
+
+        <h2>16. Reconocimientos y Tecnologías de Terceros</h2>
+        <p>Studivo utiliza las siguientes tecnologías de código abierto:</p>
+        <ul>
+            <li><strong>Room (Android Jetpack):</strong> Para almacenamiento local de base de datos</li>
+            <li><strong>ZXing o similar:</strong> Para generación y lectura de códigos QR (sujeto a sus propias licencias)</li>
+        </ul>
+        <p>Agradecemos a la comunidad de código abierto por estas herramientas.</p>
+
+        <h2>17. Feedback y Sugerencias</h2>
+        <p>El desarrollador agradece el feedback de los usuarios. Si proporcionas:</p>
+        <ul>
+            <li>Sugerencias de mejora</li>
+            <li>Reportes de errores</li>
+            <li>Ideas de nuevas funcionalidades</li>
+        </ul>
+        <p>Aceptas que el desarrollador puede <strong>usar libremente este feedback</strong> sin obligación de compensación o atribución.</p>
+
+        <h2>18. Exclusión de Garantías sobre Contenido Musical</h2>
+        <p>Studivo es una herramienta de organización y práctica, NO un instructor musical certificado:</p>
+        <ul>
+            <li>No garantizamos que las rutinas creadas sean pedagógicamente óptimas</li>
+            <li>No validamos la calidad musical del contenido compartido por usuarios</li>
+            <li>Recomendamos consultar con profesores de música certificados para orientación educativa</li>
+            <li>El progreso musical depende de múltiples factores más allá del uso de la app</li>
+        </ul>
+
+        <div class="highlight">
+            <strong>Recomendación:</strong> Studivo es un complemento excelente para tu práctica musical, pero no reemplaza la instrucción de un profesor calificado ni el estudio dedicado.
+        </div>
+
+        <h2>19. Accesibilidad</h2>
+        <p>Nos esforzamos por hacer Studivo accesible para todos los usuarios. Si encuentras barreras de accesibilidad, por favor contáctanos para que podamos mejorar.</p>
+
+        <h2>20. Código de Conducta de la Comunidad</h2>
+        <p>Aunque Studivo no tiene funciones sociales integradas, al compartir rutinas mediante QR, te pedimos:</p>
+        <ul>
+            <li><strong>Respeto:</strong> Comparte contenido constructivo y respetuoso</li>
+            <li><strong>Legalidad:</strong> No compartas material con derechos de autor sin autorización</li>
+            <li><strong>Calidad:</strong> Comparte rutinas bien estructuradas y útiles para otros músicos</li>
+            <li><strong>Seguridad:</strong> No intentes crear códigos QR maliciosos o engañosos</li>
+        </ul>
+
+        <div class="contact-box">
+            <h2 style="margin-top: 0; border: none; padding: 0;">📧 Contacto y Soporte</h2>
+            <p>Para consultas, soporte técnico, reportes de errores o cualquier pregunta sobre estos Términos y Condiciones:</p>
+            <p><strong>Email de contacto:</strong></p>
+            <p><a href="mailto:jesusparrauen5@gmail.com">jesusparrauen5@gmail.com</a></p>
+            <p style="margin-top: 20px; color: #666; font-size: 0.9em;">
+                Nos comprometemos a responder todas las consultas con prontitud y profesionalismo.
+            </p>
+        </div>
+
+        <div style="margin-top: 40px; padding: 30px; background: #f8f9ff; border-radius: 10px; text-align: center;">
+            <p style="font-size: 1.1em; margin-bottom: 15px;">
+                <strong>Gracias por elegir Studivo para tu práctica musical</strong> 🎵
+            </p>
+            <p style="color: #666;">
+                Al utilizar Studivo, aceptas estos Términos y Condiciones.<br>
+                Disfruta de tu práctica musical de manera privada, organizada y efectiva.
+            </p>
+        </div>
+
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 2px solid #f0f0f0; text-align: center; color: #888; font-size: 0.9em;">
+            <p><strong>Studivo</strong> - Organiza, Practica, Progresa</p>
+            <p>© 2025 Studivo. Todos los derechos reservados.</p>
+            <p style="margin-top: 15px;">
+                <a href="https://jesusrivero.github.io/Terminos-y-condiciones-Studivo/">Términos y Condiciones</a> | <a href="https://jesusrivero.github.io/Politicas-de-privacidad/">Política de Privacidad</a>
+            </p>
+        </div>
     </div>
 </body>
 </html>
